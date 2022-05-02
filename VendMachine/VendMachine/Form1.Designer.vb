@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class Form1
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class Form1
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
@@ -36,7 +36,6 @@ Partial Class Form1
         Me.Button6 = New System.Windows.Forms.Button()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
         Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
         Me.greenButton = New System.Windows.Forms.Button()
         Me.puffButton = New System.Windows.Forms.Button()
@@ -201,7 +200,7 @@ Partial Class Form1
         Me.Button6.BackColor = System.Drawing.Color.Black
         Me.Button6.Location = New System.Drawing.Point(303, 12)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(419, 533)
+        Me.Button6.Size = New System.Drawing.Size(425, 533)
         Me.Button6.TabIndex = 10
         Me.Button6.Text = "Button6"
         Me.Button6.UseVisualStyleBackColor = False
@@ -209,9 +208,9 @@ Partial Class Form1
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(332, 374)
+        Me.ListBox1.Location = New System.Drawing.Point(317, 374)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(237, 134)
+        Me.ListBox1.Size = New System.Drawing.Size(393, 134)
         Me.ListBox1.TabIndex = 11
         '
         'Button7
@@ -223,20 +222,11 @@ Partial Class Form1
         Me.Button7.TabIndex = 12
         Me.Button7.UseVisualStyleBackColor = True
         '
-        'Button8
-        '
-        Me.Button8.Location = New System.Drawing.Point(603, 270)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(69, 35)
-        Me.Button8.TabIndex = 61
-        Me.Button8.Text = "Coin Return"
-        Me.Button8.UseVisualStyleBackColor = True
-        '
         'Button9
         '
-        Me.Button9.Location = New System.Drawing.Point(603, 234)
+        Me.Button9.Location = New System.Drawing.Point(612, 234)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(69, 30)
+        Me.Button9.Size = New System.Drawing.Size(69, 38)
         Me.Button9.TabIndex = 60
         Me.Button9.Text = "Restock"
         Me.Button9.UseVisualStyleBackColor = True
@@ -244,7 +234,7 @@ Partial Class Form1
         'greenButton
         '
         Me.greenButton.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.greenButton.Location = New System.Drawing.Point(668, 193)
+        Me.greenButton.Location = New System.Drawing.Point(671, 193)
         Me.greenButton.Name = "greenButton"
         Me.greenButton.Size = New System.Drawing.Size(35, 35)
         Me.greenButton.TabIndex = 59
@@ -254,7 +244,7 @@ Partial Class Form1
         'puffButton
         '
         Me.puffButton.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.puffButton.Location = New System.Drawing.Point(627, 193)
+        Me.puffButton.Location = New System.Drawing.Point(630, 193)
         Me.puffButton.Name = "puffButton"
         Me.puffButton.Size = New System.Drawing.Size(35, 35)
         Me.puffButton.TabIndex = 58
@@ -264,7 +254,7 @@ Partial Class Form1
         'yellowButton
         '
         Me.yellowButton.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.yellowButton.Location = New System.Drawing.Point(586, 193)
+        Me.yellowButton.Location = New System.Drawing.Point(589, 193)
         Me.yellowButton.Name = "yellowButton"
         Me.yellowButton.Size = New System.Drawing.Size(35, 35)
         Me.yellowButton.TabIndex = 57
@@ -274,7 +264,7 @@ Partial Class Form1
         'nachoButton
         '
         Me.nachoButton.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.nachoButton.Location = New System.Drawing.Point(668, 152)
+        Me.nachoButton.Location = New System.Drawing.Point(671, 152)
         Me.nachoButton.Name = "nachoButton"
         Me.nachoButton.Size = New System.Drawing.Size(35, 35)
         Me.nachoButton.TabIndex = 56
@@ -284,7 +274,7 @@ Partial Class Form1
         'gardenButton
         '
         Me.gardenButton.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.gardenButton.Location = New System.Drawing.Point(627, 152)
+        Me.gardenButton.Location = New System.Drawing.Point(630, 152)
         Me.gardenButton.Name = "gardenButton"
         Me.gardenButton.Size = New System.Drawing.Size(35, 35)
         Me.gardenButton.TabIndex = 55
@@ -294,7 +284,7 @@ Partial Class Form1
         'coolButton
         '
         Me.coolButton.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.coolButton.Location = New System.Drawing.Point(586, 152)
+        Me.coolButton.Location = New System.Drawing.Point(589, 152)
         Me.coolButton.Name = "coolButton"
         Me.coolButton.Size = New System.Drawing.Size(35, 35)
         Me.coolButton.TabIndex = 54
@@ -304,7 +294,7 @@ Partial Class Form1
         'twixButton
         '
         Me.twixButton.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.twixButton.Location = New System.Drawing.Point(668, 111)
+        Me.twixButton.Location = New System.Drawing.Point(671, 111)
         Me.twixButton.Name = "twixButton"
         Me.twixButton.Size = New System.Drawing.Size(35, 35)
         Me.twixButton.TabIndex = 53
@@ -314,7 +304,7 @@ Partial Class Form1
         'milkyButton
         '
         Me.milkyButton.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.milkyButton.Location = New System.Drawing.Point(627, 111)
+        Me.milkyButton.Location = New System.Drawing.Point(630, 111)
         Me.milkyButton.Name = "milkyButton"
         Me.milkyButton.Size = New System.Drawing.Size(35, 35)
         Me.milkyButton.TabIndex = 52
@@ -324,7 +314,7 @@ Partial Class Form1
         'ressesButton
         '
         Me.ressesButton.Font = New System.Drawing.Font("Microsoft YaHei UI", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.ressesButton.Location = New System.Drawing.Point(586, 111)
+        Me.ressesButton.Location = New System.Drawing.Point(589, 111)
         Me.ressesButton.Name = "ressesButton"
         Me.ressesButton.Size = New System.Drawing.Size(35, 35)
         Me.ressesButton.TabIndex = 51
@@ -335,7 +325,7 @@ Partial Class Form1
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("MingLiU-ExtB", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(645, 65)
+        Me.Label2.Location = New System.Drawing.Point(648, 65)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(65, 21)
         Me.Label2.TabIndex = 50
@@ -345,7 +335,7 @@ Partial Class Form1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("MingLiU-ExtB", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(572, 65)
+        Me.Label1.Location = New System.Drawing.Point(575, 65)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(76, 21)
         Me.Label1.TabIndex = 49
@@ -715,7 +705,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(739, 548)
+        Me.ClientSize = New System.Drawing.Size(770, 548)
         Me.Controls.Add(Me.greenAmount)
         Me.Controls.Add(Me.cheetosAmount)
         Me.Controls.Add(Me.laysAmount)
@@ -752,7 +742,6 @@ Partial Class Form1
         Me.Controls.Add(Me.twixPic)
         Me.Controls.Add(Me.milkyPic)
         Me.Controls.Add(Me.reesesPic)
-        Me.Controls.Add(Me.Button8)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.greenButton)
         Me.Controls.Add(Me.puffButton)
@@ -779,7 +768,7 @@ Partial Class Form1
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Name = "Form1"
-        Me.Text = "Form1"
+        Me.Text = "Vending Machine"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -812,7 +801,6 @@ Partial Class Form1
     Friend WithEvents Button6 As Button
     Friend WithEvents ListBox1 As ListBox
     Friend WithEvents Button7 As Button
-    Friend WithEvents Button8 As Button
     Friend WithEvents Button9 As Button
     Friend WithEvents greenButton As Button
     Friend WithEvents puffButton As Button

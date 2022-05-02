@@ -2,6 +2,8 @@
     Public Property nickels As Integer
     Public Property dimes As Integer
     Public Property quarter As Integer
+    Public Property fifty As Integer
+    Public Property dollar As Integer
     Public Property reeses As Integer
     Public Property milky As Integer
     Public Property twix As Integer
@@ -19,14 +21,26 @@
     End Property
     Public ReadOnly Property contents As String
         Get
-            Return "Reese's: " & reeses & " Milky Ways: " & milky & " Twix: " & twix & " Cool Ranch: " & cool & " Garden Salsa: " & garden & " Nacho Cheese: " & nacho & " Lays: " & lays & " Cheetos: " & cheetos & "Sour Cream & Onion" & green
+            Return "Reese's: " & reeses & " Milky Ways: " & milky & " Twix: " & twix & " Cool Ranch: " & cool & " Garden Salsa: " & garden &
+                " Nacho Cheese: " & nacho & " Lays: " & lays & " Cheetos: " & cheetos & "Sour Cream & Onion" & green
         End Get
     End Property
     Public Sub restock()
         nickels = 0
         dimes = 0
         quarter = 0
-        fi
+        fifty = 0
+        dollar = 0
+        reeses = 10
+        milky = 10
+        twix = 10
+        cool = 10
+        garden = 10
+        nacho = 10
+        lays = 10
+        cheetos = 10
+        green = 10
+        m_total = 0
     End Sub
     Public Function Buy(amount As Decimal, item As Integer) As Boolean
         If item = 1 Then
@@ -107,13 +121,11 @@
         m_total = m_total + 0.25
     End Sub
     Public Sub addfifty()
+        fifty += 1
         m_total = m_total + 0.5
     End Sub
     Public Sub addDollar()
+        dollar += 1
         m_total = m_total + 1
     End Sub
-    Public Function subtract(inventory As Decimal) As Boolean
-
-    End Function
-End Class
 End Class
